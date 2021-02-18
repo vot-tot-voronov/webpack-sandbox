@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import './style.scss'
 
-function App() {
-    return (
-        <div className="hold">Hello webpack and postcss!</div>
-    );
-}
+
+import {App} from './components/App'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 render(<App />, document.getElementById("root"));
